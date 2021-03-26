@@ -2,5 +2,15 @@
     "name": "Knoldus Organization Workflow",
     "description": "Knoldus Organization CI workflow template.",
     "iconName": "example-icon",
+    "categories": [
+        "Go"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        "^README.md"
+        ".*\\.md$"
+    ]
+}
     
 }

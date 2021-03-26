@@ -2,9 +2,9 @@ name: Knoldus Organization CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
@@ -14,4 +14,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Run a one-line script
-        run: echo Hello from Octo Organization
+        run: echo Hello from Knoldus Organization
